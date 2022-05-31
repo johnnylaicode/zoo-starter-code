@@ -4,8 +4,8 @@ body {
     text-align: center;
   }
   
-  p {
+p {
       inline-size: 300px;
       overflow-wrap: break-word;
       text-align: center;
-  }
+}
