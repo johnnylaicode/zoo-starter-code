@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(167, 167, 167);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h1,iframe {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  
+p {
+    font: caption;
+    inline-size: 600px;
+    overflow-wrap: break-word;
+}
