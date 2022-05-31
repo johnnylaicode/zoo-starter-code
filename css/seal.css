@@ -1,13 +1,20 @@
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+body {
     background-color: rgb(0, 79, 128);
-    text-align: center;
-  }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h1,iframe {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
   
 p {
-      inline-size: 300px;
-      overflow-wrap: break-word;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    font: caption;
+    inline-size: 600px;
+    overflow-wrap: break-word;
 }
