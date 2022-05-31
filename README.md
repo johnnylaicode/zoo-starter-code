@@ -1,4 +1,4 @@
-# zoo-starter-code
+# Simple Zoo Website
 
 This repository is the website starter code for Assignment 1 - Zoo.
 
