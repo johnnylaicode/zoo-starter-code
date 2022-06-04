@@ -1,5 +1,13 @@
-# zoo-starter-code
+# Assignment1_zoo
 
-This repository is the website starter code for Assignment 1 - Zoo.
+This repository is the code for Assignment 1 - Zoo.
 
-[Website link](https://johnnylaicode.github.io/zoo-starter-code/)
+  ## Group Members:
+
+1. Ahbab Ashraf - BobtheKebab
+2. Robbie Cha - rchc44
+3. Layla Flight - laylaflight
+4. Bushra Hussain - bushra4468
+
+
+[Website link](https://rchc44.github.io/assignment1_zoo/)
