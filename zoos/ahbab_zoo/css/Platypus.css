@@ -9,3 +9,10 @@ img {
 	height: 70%;
 	width: auto;
 }
+
+.container {
+	max-width: 500px;
+	height: auto;
+	width: 70%;
+	margin: 0 auto;
+}
