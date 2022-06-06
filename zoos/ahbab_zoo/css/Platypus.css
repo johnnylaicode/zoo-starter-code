@@ -1,0 +1,11 @@
+body {
+  font-family: Monaco, monospace;
+  background-color: mediumPurple;
+  text-align: center;
+}
+
+img {
+	max-height: 600px;
+	height: 70%;
+	width: auto;
+}
