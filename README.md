@@ -1,5 +1,7 @@
-# zoo-starter-code
+# Assignment 1 - Zoo
 
-This repository is the website starter code for Assignment 1 - Zoo.
+Group member:
 
-[Website link](https://johnnylaicode.github.io/zoo-starter-code/)
+Alima Asanbaeva (myself) - aikolok
+
+[Link to Website](https://aikolok.github.io/assignment-1-Zoo/)
