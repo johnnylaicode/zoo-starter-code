@@ -3,3 +3,48 @@ body {
   background-color: salmon;
   text-align: center;
 }
+
+.imageicon{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.link{
+  border-radius: 10%;
+  width: 250px;
+  height: 275px;
+  margin-bottom: 50px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.health-icon{
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 80px;
+  height: 64px;
+  text-align:center;
+}
+.icon{
+  width:32px;
+  height:32px;
+  margin:auto;
+}
+.number{
+  width:16px;
+  height:16px;
+  margin:auto;
+  text-align: right;
+}
+.link:hover{
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+#title{
+  font-weight: bold;
+  color: #fff;
+  font-size: 64px;
+}
