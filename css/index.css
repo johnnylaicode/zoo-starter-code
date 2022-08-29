@@ -29,22 +29,38 @@ body {
   height: 64px;
   text-align:center;
 }
+
 .icon{
   width:32px;
   height:32px;
   margin:auto;
 }
+
 .number{
   width:16px;
   height:16px;
   margin:auto;
   text-align: right;
 }
+
 .link:hover{
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
+
 #title{
   font-weight: bold;
   color: #fff;
   font-size: 64px;
+}
+#Rarity-Epic{
+  color:purple;
+}
+#Rarity-Mythic{
+  color:red;
+}
+#Rarity-Legendary{
+  color:gold;
+}
+#Rarity-Common{
+  color:rgb(0, 153, 255);
 }
