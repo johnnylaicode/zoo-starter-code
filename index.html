@@ -1,23 +1,128 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>QI's Zoo</title>
+    <title>QI's adventure guild</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
   </head>
   <body>
-    <h1>Welcome to QI's Zoo</h1>
-    <h3>See the animals at the zoo:</h3>
-    <div class="link">
-      <a href="raccoon.html">Raccoon</a>
+    <h1 id="title">Welcome to QI's Adventure Guild</h1>
+    <h3 id="description">See the available companion at the Guild:</h3>
+
+    <div class="link" onclick=window.location.href='raccoon.html' >
+      <a href="raccoon.html" class="fill-div" ></a>
+      <a id="Rarity-Epic">
+        Raccoon
+      </a>
+      
+      <div>
+        <img  class="imageicon" src="img/raccoon-icon.jpg" alt="">
+      </div>
+      
+
+      <div class="bar">
+
+        <div class="health-icon">
+          <img src="img/icons8-heart-32.png" class="icon"alt="health"/>
+          <P class="number">100</P>
+        </div>
+        
+        <div class="health-icon">
+          <img src="img/icons8-shield-32.png" class="icon" alt="shield">
+          <P class="number">15</P>
+        </div>
+        
+        <div class="health-icon">
+          <img src="img/icons8-sword-32.png" class="icon" alt="sword">
+          <P class="number">15</P>
+        </div>
+      </div>
+
     </div>
-    <div class="link">
-      <a href="redpanda.html">Red Panda</a>
+
+
+    <div class="link" onclick=window.location.href='redpanda.html'>
+      <a id="Rarity-Legendary">Red Panda</a>
+
+      <div>
+        <img  class="imageicon" src="img/redpanda-icon.jpg" alt="">
+      </div>
+      
+      <div class="bar">
+
+        <div class="health-icon">
+          <img src="img/icons8-heart-32.png" class="icon"alt="health"/>
+          <P class="number">125</P>
+        </div>
+        
+        <div class="health-icon">
+          <img src="img/icons8-shield-32.png" class="icon" alt="shield">
+          <P class="number">10</P>
+        </div>
+        
+        <div class="health-icon">
+          <img src="img/icons8-sword-32.png" class="icon" alt="sword">
+          <P class="number">25</P>
+        </div>
+      </div>
+
     </div>
-    <div class="link">
-      <a href="cat.html">Cat</a>
+
+
+    <div class="link" onclick=window.location.href='cat.html'>
+      <a id="Rarity-Common">Cat</a>
+      <div>
+        <img  class="imageicon" src="img/cat-icon.jpg" alt="">
+      </div>
+      
+      <div class="bar">
+
+        <div class="health-icon">
+          <img src="img/icons8-heart-32.png" class="icon"alt="health"/>
+          <P class="number">85</P>
+        </div>
+        
+        <div class="health-icon">
+          <img src="img/icons8-shield-32.png" class="icon" alt="shield">
+          <P class="number">5</P>
+        </div>
+        
+        <div class="health-icon">
+          <img src="img/icons8-sword-32.png" class="icon" alt="sword">
+          <P class="number">35</P>
+        </div>
+      </div>
+
     </div>
-    <div class="link">
-      <a href="arcticfox.html">Arctic Fox</a>
+
+
+    <div class="link"  onclick=window.location.href='arcticfox.html' >
+      <a id="Rarity-Mythic" >Arctic Fox</a>
+
+      <div>
+        <img  class="imageicon" src="img/arctic-fox-icon.jpg" alt="">
+      </div>
+      
+      <div class="bar">
+
+        <div class="health-icon">
+          <img src="img/icons8-heart-32.png" class="icon"alt="health"/>
+          <P class="number">100</P>
+        </div>
+        
+        <div class="health-icon">
+          <img src="img/icons8-shield-32.png" class="icon" alt="shield">
+          <P class="number">20</P>
+        </div>
+        
+        <div class="health-icon">
+          <img src="img/icons8-sword-32.png" class="icon" alt="sword">
+          <P class="number">65</P>
+        </div>
+      </div>
+
     </div>
+
+    <script src="index.js"></script>
+
   </body>
 </html>
