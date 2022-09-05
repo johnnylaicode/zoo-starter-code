@@ -18,8 +18,8 @@
   --font-size5: 3rem;
 }
 
-/* Text Color Classes */
-.magic-mint{
+/* text color classes */
+.magic-mint {
   color: var(--magic-mint);
 }
 
@@ -39,39 +39,48 @@
   color: var(--olive-drab-7);
 }
 
+/* text size classes */
+
+.font-size-1 {
+  font-size: var(--font-size1);  
+}
+
+.font-size-2 {
+  font-size: var(--font-size2);
+}
+
+.font-size-3 {
+  font-size: var(--font-size3);
+}
+
+.font-size-4 {
+  font-size: var(--font-size4);
+}
+
+.font-size-5 {
+  font-size: var(--font-size5);
+}
+
 * {
   margin: 0;
   padding: 0;
   outline: 1px solid black;
 }
 
-body{
+body {
   width: 100%;
   height: 100%;
-  font-family: var(--font-Lato);
+  font-family: var(--font-Lato), var(--font-Sans);
   font-size: var(--font-size1);
 }
 
-h1 {
-  font-size: var(--font-size5);
-}
-
-h2 {
-  font-size: var(--font-size3);
-}
-
-h2 ul {
+ul {
   padding-left: 2vw;
 }
 
 a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
-}
-
-p {
-  font-size: var(--font-size2);
-  padding: 4vh 5vw;
 }
 
 #navbar {
@@ -112,25 +121,32 @@ p {
   padding: 6vh 5vw;
 }
 
+.main-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
 #main-page--section {
 background-image: url('/img/Main/main\ \(1\).jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: right;
-height: 100vh;
-width: 100%;
 background-color: var(--magic-mint);
 }
 
-#about-us--section {
-
+#lions--section {
+background-image: url('/img/Animals/Lion/l1.jpg');
 }
 
 .page-footer {
   background-color: var(--olive-drab-7);
-  text-align: center;
   height: 9vh;
   width: 100%;
+  text-align: center;
+}
+
+/* About-Us Section */
+#about-us--section{
+  background-image: url("/img/Main/zoo3.jpg");
 }
 
 #mission-statement ul li{
