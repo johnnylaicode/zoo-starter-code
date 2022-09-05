@@ -54,16 +54,24 @@ body{
 
 h1 {
   font-size: var(--font-size5);
-  padding: 6vh 5vw;
 }
 
 h2 {
   font-size: var(--font-size3);
-  padding: 6vh 5vw;
 }
 
 h2 ul {
   padding-left: 2vw;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-size: var(--font-size2);
+  padding: 4vh 5vw;
 }
 
 #navbar {
@@ -100,6 +108,10 @@ h2 ul {
   height: 0;
 }
 
+.page-padding {
+  padding: 6vh 5vw;
+}
+
 #main-page--section {
 background-image: url('/img/Main/main\ \(1\).jpg');
 background-repeat: no-repeat;
@@ -110,9 +122,27 @@ width: 100%;
 background-color: var(--magic-mint);
 }
 
+#about-us--section {
+
+}
+
 .page-footer {
   background-color: var(--olive-drab-7);
   text-align: center;
   height: 9vh;
   width: 100%;
+}
+
+#mission-statement ul li{
+  padding: 0 2vw;
+}
+
+.bold {
+  font-size: var(--font-size3);
+  font-weight: 1000;
+}
+
+.less-bold {
+  font-size: var(--font-size2);
+  font-weight: 800;
 }
