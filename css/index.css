@@ -1,5 +1,118 @@
-body {
-  font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+:root {
+  /* colors */
+  --magic-mint: #a6ebc9ff;
+  --spring-green: #61ff7eff;
+  --screamin-green: #5eeb5bff;
+  --green-ryb: #62ab37ff;
+  --olive-drab-7: #393424ff;
+
+  /* fonts */
+  --font-Lato: 'Lato', sans-serif;
+  --font-Sans: sans-serif;
+
+  /* font sizes */
+  --font-size1: .75rem;
+  --font-size2: 1rem;
+  --font-size3: 1.5rem;
+  --font-size4: 2rem;
+  --font-size5: 3rem;
+}
+
+/* Text Color Classes */
+.magic-mint{
+  color: var(--magic-mint);
+}
+
+.spring-green {
+  color: var(--spring-green);
+}
+
+.screamin-green {
+  color: var(--screamin-green);
+}
+
+.green-ryb {
+  color: var(--green-ryb);
+}
+
+.olice-drab {
+  color: var(--olive-drab-7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 1px solid black;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-Lato);
+  font-size: var(--font-size1);
+}
+
+h1 {
+  font-size: var(--font-size5);
+  padding: 6vh 5vw;
+}
+
+h2 {
+  font-size: var(--font-size3);
+  padding: 6vh 5vw;
+}
+
+h2 ul {
+  padding-left: 2vw;
+}
+
+#navbar {
+  min-height: 9vh;
+  height: 9vh;
+  font-size: var(--font-size3);
+  font-weight: 1000;
+  background-color: var(--olive-drab-7);
+}
+
+#navbar--about-us {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  margin: 20px 0 20px 20px;
+  list-style-type: none;
+  align-self: center;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+#main-page--section {
+background-image: url('/img/Main/main\ \(1\).jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+height: 100vh;
+width: 100%;
+background-color: var(--magic-mint);
+}
+
+.page-footer {
+  background-color: var(--olive-drab-7);
   text-align: center;
+  height: 9vh;
+  width: 100%;
 }
