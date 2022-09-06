@@ -133,10 +133,6 @@ background-image: url('/img/Main/main\ \(1\).jpg');
 background-color: var(--magic-mint);
 }
 
-#lions--section {
-background-image: url('/img/Animals/Lion/l1.jpg');
-}
-
 .page-footer {
   background-color: var(--olive-drab-7);
   height: 9vh;
@@ -145,10 +141,19 @@ background-image: url('/img/Animals/Lion/l1.jpg');
 }
 
 /* Lions */
+#lions--section {
+  background-image: url('/img/Animals/Lion/l1.jpg');
+}
 
 /* Cobras */
+#cobras--section {
+  background-image: url("/img/Animals/KingCobra/cobra\ \(2\).jpg");
+}
 
 /* Frogs */
+#frogs--section {
+  
+}
 
 /* Eagles Section */
 #eagles--section {
@@ -156,6 +161,9 @@ background-image: url('/img/Animals/Lion/l1.jpg');
 }
 
 /* Red Pandas */
+#red-panda--section {
+
+}
 
 /* About-Us Section */
 #about-us--section{
