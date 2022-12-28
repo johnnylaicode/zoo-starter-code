@@ -6,7 +6,7 @@ This repository is the starter code for Assignment 1 - Zoo.
 [Website link](https://johnnylaicode.github.io/zoo-starter-code/)
 
 ----------
-### 1. Use the following steps to ***import*** the Assignment 1 starter code repository to your GitHub account as your starter codebase
+### 1. Use the following process to ***import*** the Assignment 1 starter code repository to your GitHub account as your starter codebase
 1.	Log on to GitHub
 2.	Click on the + sign in the top right corner (next to the user icon)
 3.	In the dropdown menu, select "Import repository"
@@ -18,11 +18,11 @@ This repository is the starter code for Assignment 1 - Zoo.
 9.	From this point on, you can clone your new repository, make changes, create feature branches, and create/merge pull requests
 
 ----------
-### 2. Use the instruction below to ***clone*** the starter codebase to your local machine
+### 2. Use the information below to ***clone*** the starter codebase to your local machine
 After creating the starter codebase "assignment-1" repository on GitHub (see above), you can clone it to your local machine. The instructions on how to clone a GitHub repository are available at this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 ----------
-### 3. Use the following steps to set up and deploy the application to GitHub Pages
+### 3. Set up and deploy the application to GitHub Pages
 After your application development, you can deploy the application to GitHub Pages using the process below.
 
 #### 1. Create your GitHub Pages home website
