@@ -3,21 +3,39 @@
   <head>
     <title>WildLife Zoo</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
   </head>
+
   <div class="nav_bar">
-    <a href="#about">WildLife Zoo</a>
-    <a href="#about">About Us</a>
-    <a href="#animals">Animals</a>
-    <a href="#contact">Contact</a>
+    <li><a href="#about">WildLife Zoo</a></li>
+    <li style="float: right"><a href="#about">Contact</a></li>
+    <li style="float: right"><a href="#animals">Animals</a></li>
+    <li style="float: right"><a href="#contact">About Us</a></li>
   </div>
+
   <body>
-    <h1>Welcome to Joyce's Zoo</h1>
-    <h3>See the animals at the zoo:</h3>
-    <div class="animals">
-      <a href="bear.html">Brown Bear</a>
-      <a href="giraffe.html">Giraffe</a>
-      <a href="parrot.html">Parrot</a>
-      <a href="tiger.html">Tiger</a>
+    <div class="animal_slides">
+      <img src="img/homepage/parrot.jpg" style="width: 45%; height: 30vw; float: left;">
+
+      <div class="container">
+        <div class="center">
+          <h1 style="font-size: 40px">Welcome to WildLife Zoo!</h1>
+          <h2 style="font-size: 25px">Discover the beauty of nature</h2>
+        </div>
+      </div>
+
+      <div class="animals">
+        <h3 style="padding-bottom: 10px; border-bottom:1px solid lightblue; text-align: center;">See the animals at the zoo:</h3>
+        <div class="select_animal">
+          <li style="text-align: center;"><a href="bear.html"><img src="img/homepage/bear.jpg"></image></a>Bear</li>
+          <li style="text-align: center;"><a href="giraffe.html"><img src="img/homepage/giraffe.jpg"></image></a>Giraffe</li>
+          <li style="text-align: center;"><a href="croc.html"><img src="img/homepage/croc.jpg"></image></a>Parrot</li>
+          <li style="text-align: center;"><a href="tiger.html"><img src="img/homepage/tiger.jpg"></image></a>Tiger</li>
+       </div>
+      </div>
+      
     </div>
   </body>
 </html>
