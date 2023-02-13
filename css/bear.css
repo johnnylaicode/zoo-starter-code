@@ -1,5 +1,75 @@
-body {
-  font-family: Courier New;
-  background-color: silver;
+* {
+  font-family: 'Montserrat';
+  background-color: black;
+  color: white;
+}
+
+/* Navigator Links */
+
+li {
+  float: left;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
   text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+.nav_bar{
+  margin: 0;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+}
+
+/* Bear  */
+
+.background{
+  height: 170px;
+  overflow: hidden;
+}
+
+.bear_background{
+  width: 100%;
+}
+
+.bear_title{
+  font-size: 25px;
+  position: absolute;
+  left: 30px;
+  top: 100px;
+  background: transparent;
+}
+
+.bear_title h1{
+  background-color: transparent;
+  color: white;
+}
+
+.bear_info{
+  padding: 10px;
+}
+
+.bear_info img{
+  float: left;
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 10px;
+  padding-bottom: 50px;
+}
+
+.bear_text{
+  width: 65%;
+  float: left;
+  text-align: left;
+  padding: 20px;
+}
+
+.bear_paragraph ul li{
+  display: block;
+
 }
